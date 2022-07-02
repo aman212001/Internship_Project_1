@@ -47,3 +47,90 @@ body{
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.navbar-brand1{
+    color: black;
+    font-size: 14px;
+    width: 785px;
+    margin-left: 100px;
+    text-align: right;
+}
+
+#collapsibleNavbar{
+    float: right;
+    margin-right:60px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.nav-link:hover{
+    text-decoration-line: none;
+    color: grey;
+}
+
+#logo{
+    padding-top: 20px;
+    height: 60px;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner_image{
+    width: 100%;
+    max-height: 340px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.banner-content{
+    position: absolute;
+    bottom: 30px;
+    left: 16px;
+    margin-left:30px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.horizontal-line{
+    border-bottom: 5px solid #2C66BF;
+    height: 2px;
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+
+
+input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+  }
+
+textarea {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+  }
+
+.submit-button{
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: #407BD6;
+    color: #fff;
+    border-width: 0px;
+    padding: 10px;
+}
